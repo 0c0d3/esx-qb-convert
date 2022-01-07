@@ -1,4 +1,4 @@
-# Güncellenmeye devam edecektir.
+# ESX to QBus
 --------------------------------------------------------------------------------------------------
 ```lua
 QBCore.Shared.Items
@@ -20,9 +20,9 @@ Citizen.CreateThread(function()
 	end
 end)
 ```
-# ÜSTEKİ QBUSCORE
+# QBUSCORE
 
-# ALTAKİ ESX
+# ESX
 ```lua
 ESX = nil
 
@@ -34,17 +34,14 @@ Citizen.CreateThread(function()
 end)
 ```
 --------------------------------------------------------------------------------------------------
-Beyler Bu kısım Yoktu eklendi.
-Anlamı:
-Oyuncu Giriş Kısmı İlik Oyuna Girerken Lazım, Yani Server Dosyasıdır.
-Bu olay, oyuncu sunucuya bağlandığında tetiklenir
+This event is triggered when the player connects to the server.
 ```lua
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded')
 AddEventHandler('QBCore:Client:OnPlayerLoaded',
 ```
-# ÜSTEKİ QBUSCORE
+# QBUSCORE
 
-# ALTAKİ ESX
+# ESX
 ```lua
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded',
