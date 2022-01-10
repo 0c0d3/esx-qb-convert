@@ -17,6 +17,8 @@ Player.PlayerData.citizenid
 Player.PlayerData.source --".id" won't work!!!
 Player.PlayerData.licences.weapon
 Player.PlayerData.position.x
+Player.PlayerData.money.bank
+Player.PlayerData.money["bank"] --same as above
 ```
 
 
